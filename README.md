@@ -45,11 +45,13 @@ or go the browser :
 ```bash
 http://localhost:5050/
 ```
+
 Response:
 "API is running"
 
-GET /products
-Returns all products.
+#### GET /products
+#### Returns all products.
+
 Example:
 ```bash
 curl http://localhost:5050/products
@@ -59,8 +61,9 @@ or go the browser :
 http://localhost:5050/products
 ```
 
-GET /products?category=Apparel
-Returns products filtered by category.
+#### GET /products?category=Apparel
+#### Returns products filtered by category.
+
 Example:
 ```bash
 curl "http://localhost:5050/products?category=Apparel"
@@ -71,13 +74,14 @@ or go the browser :
 http://localhost:5050/products?category=Apparel
 ```
 
-resut :
+result :
 ```bash
 [{"id":1,"name":"T-Shirt","price":20,"category":"Apparel","description":"Soft cotton T-shirt, perfect for everyday wear."},{"id":3,"name":"Jeans","price":45,"category":"Apparel","description":"Classic straight-fit jeans made from premium denim."}]
 ```
 
-GET /products/:id
-Returns a product by its ID.
+#### GET /products/:id
+#### Returns a product by its ID.
+
 Example:
 ```bash
 curl http://localhost:5050/products/1
@@ -88,7 +92,8 @@ or go the browser :
 http://localhost:5050/products/1
 ```
 
-Send a POST request
+#### Send a POST request
+
 With curl:
 ```bash
 curl -X POST http://localhost:5050/products \
