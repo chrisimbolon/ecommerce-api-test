@@ -9,12 +9,25 @@ A minimal Node.js + Express API for managing product data. Built for a backend c
 
 # API Documentation
 
-Getting Started:
+## Getting Started:
 
 creation:
 ```bash
 mkdir ecommerce-api-test
 cd ecommerce-api-test
+```
+## Project Structure
+
+```bash
+
+├── controllers/
+│   └── products.js
+├── routes/
+│   └── products.js
+├── products.json
+├── server.js
+├── package.json
+└── .gitignore
 ```
 
 ## How to Run
@@ -93,7 +106,6 @@ http://localhost:5050/products/1
 ```
 
 #### Send a POST request
-
 With curl:
 ```bash
 curl -X POST http://localhost:5050/products \
@@ -106,3 +118,7 @@ curl -X POST http://localhost:5050/products \
   }'
 ```
 
+## Notes
+* Data is persisted in products.json.
+* POST requests expect application/json.
+* There’s no database — this is a file-based implementation for simplicity and demonstration.
