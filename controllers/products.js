@@ -19,7 +19,7 @@ const saveData = async (data) => {
 
 // --- Controllers ---
 
-// GET /products (optional ?category= query)
+// GET /products - All products, (optional ?category= query)
 exports.getProducts = (req, res) => {
   const products = getData();
 
