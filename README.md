@@ -13,7 +13,9 @@ npm install
 nodemon server.js
 
 Server runs at:
+```bash
 http://localhost:5050
+```
 
 Features
 GET /products — Fetch all products
