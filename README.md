@@ -2,9 +2,9 @@ Simple RESTful Product API
 A minimal Node.js + Express API for managing product data. Built for a backend coding assessment.
 
 # Tech Stack
-Node.js – JavaScript runtime environment.
-Express.js – Web framework for building APIs.
-File System (fs) – To read/write product data from products.json.
+#### Node.js – JavaScript runtime environment.
+#### Express.js – Web framework for building APIs.
+#### File System (fs) – To read/write product data from products.json.
 
 # API Documentation
 
