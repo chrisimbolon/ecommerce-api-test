@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "T-Shirt",
+    "price": 20,
+    "category": "Apparel",
+     "description": "Soft cotton T-shirt, perfect for everyday wear."
+  },
+  {
+    "id": 2,
+    "name": "Sneakers",
+    "price": 70,
+    "category": "Footwear",
+     "description": "Lightweight and durable sneakers for all-day comfort."
+  },
+  {
+    "id": 3,
+    "name": "Jeans",
+    "price": 45,
+    "category": "Apparel",
+    "description": "Classic straight-fit jeans made from premium denim."
+  },
+  {
+    "id": 4,
+    "name": "Wireless Mouse",
+    "price": 29.99,
+    "category": "Electronics",
+    "description": "Ergonomic wireless mouse"
+  }
+]
